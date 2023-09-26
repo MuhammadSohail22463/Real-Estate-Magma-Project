@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #083FDC;
+    position: relative;
+}
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1 nav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#page1 img{
+    width: 15%;
+    position: relative;
+    right: 70px;
+    bottom: 28px;
+}
+#page1 button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #0940DD;
+    color: white;
+    margin: 10px;
+    transition: all;
+}
+#page1 button:hover{
+    background-color: white;
+    transition: all;
+    cursor: pointer;
+    color: #0940DD;
+}
+#pagebottom{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    font-family: 'Jost', sans-serif;
+
+}
+#tag{
+    font-size: 3vw;
+  font-weight: lighter;
+    color: white;
+}
+#disc{
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: lighter;
+    font-size: smaller;
+    color: white;
+    margin-top: 50px;
+}
+#disc button {
+    background-color: white;
+    color: #083FDC;
+}
+
+#disc button:hover{
+    background-color: #0F0F17;
+    color: white;
+    cursor: pointer;
+}
+#page2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0A3CCE;
+    position: relative;
+    color: white;
+}
+#page2 h1{
+    margin-left: 10vw;
+    margin-top: 2vw;
+    font-size: 3.5vw;
+    color: #dadada69;
+    width: 70%;
+    
+}
+#page2 h3{
+    margin-left: 10vw;
+    font-size: 1.2vw;
+}
